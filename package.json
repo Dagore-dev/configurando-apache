@@ -1,0 +1,23 @@
+{
+  "name": "configurando-apache",
+  "version": "1.0.0",
+  "description": "1. Hacer que Apache no funcione con `https`.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx marp --output=dist --input-dir=src --allow-local-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagore-dev/configurando-apache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dagore-dev/configurando-apache/issues"
+  },
+  "homepage": "https://github.com/Dagore-dev/configurando-apache#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.2.0"
+  }
+}
