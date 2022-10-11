@@ -82,7 +82,11 @@ Se utiliza un bloque `Files` donde se especifica el patrón y la orden `Require 
 
 ---
 
-# Tema libre: 
+# Tema libre: Cambiar el nivel de logs
+
+Modificando el `LogLevel` se puede configurar qué niveles de logs son registrados en los ficheros de auditoría.
+
+![](/assets/images/log-level-notice.png)
 
 ---
 
