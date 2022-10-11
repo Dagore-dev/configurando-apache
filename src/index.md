@@ -12,9 +12,17 @@ David Gómez Redondo
 
 # Evitar funcionamiento con `https`
 
+Para ello, en el fichero `httpd-ssl.conf` se debe comentar la orden `Listen 443`.
+
+![](/assets/images/disable-ssl.png)
+
 ---
 
 # Evitar funcionamiento sin `https`
+
+Para ello, en el fichero `httpd.conf` se debe comentar la orden `Listen 80`. El resto de configuraciones se hacen en este fichero.
+
+![](/assets/images/disable-http.png)
 
 ---
 
