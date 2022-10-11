@@ -66,4 +66,24 @@ Para esto solo hay que acceder a la dirección `IP` del equipo del compañero pu
 
 ---
 
+# Tema libre: Cambiar el correo del administrador del servidor
+
+El administrador del servidor se define con la orden `ServerAdmin`.
+
+![](/assets/images/server-admin.png)
+
+---
+
+# Tema libre: Impedir el acceso a los fichero `.env`
+
+Se utiliza un bloque `Files` donde se especifica el patrón y la orden `Require all denied`.
+
+![](/assets/images/deny-env-files.png)
+
+---
+
+# Tema libre: 
+
+---
+
 # Gracias por su atención
